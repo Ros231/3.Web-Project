@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+@page{
+    size: A4;
+    margin: 0;
+}
+*{
+    font-family: 'Noto Sans Thai', sans-serif !important;
+}
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btnprint{
+    display: flex;
+    justify-content:end;
+    margin: 20px 50px;
+}
+.btn-form-text{
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px ;
+    color: white;
+    font-size: 16pt;
+    transition: 0.5s;
+}
+.btn-form-text:hover{
+    background-color: rgb(254, 177, 96);
+}
+
+.btn-print-text{
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px ;
+    color: white;
+    font-size: 16pt;
+    transition: 0.5s;
+    
+}
+.btn-print-text:hover{
+    transform: rotate(0.5turn);
+    background-color: rgb(254, 177, 96);
+}
+.count-search{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.text-chosen{
+    font-weight: bold;
+    font-size: 21pt;
+}
+.print-prass{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}

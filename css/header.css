@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+*{
+    font-family: 'Noto Sans Thai', sans-serif !important;
+}
+/*--------------------------------header---------------------------------------- */
+
+
+.logo{
+    width: 195px;
+}
+.header_1 nav{
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 20px;
+    border-color: black;
+    border-style:none none solid none ;
+    flex: 0 0 auto;
+}
+.Menu_bar_1{
+    display: flex;
+    list-style-type:none;
+    padding-right: 50px;
+
+}
+
+.Menu_bar_1 a{
+    font-size: 20pt;
+    color: black;
+    padding: 10px 20px ;
+    text-decoration: none;
+}
+a:hover{
+    color: black !important;
+}
+li{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+.li_1{
+    padding-right: 20px;
+}
+.li_1::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: 0.3s ease-in-out;
+}
+.li_1:hover::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 80%;
+}
+
+.li_2{
+    background-color: rgb(254, 177, 96);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition-property: transform,  background-color ;
+    transition-duration: 0.5s,1s;
+}
+.li_2:hover{
+    transform: scale(1.1,1.1);
+}

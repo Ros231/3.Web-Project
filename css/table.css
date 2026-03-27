@@ -1,0 +1,31 @@
+table.dataTable tbody tr{
+    background-color: white;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper , 
+.dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, 
+.dataTables_wrapper .dataTables_paginate {
+    color: inherit;
+    background-color: white;
+}
+.dataTables_filter{
+    background-color: white;
+    margin-bottom: 15px;
+}
+.main-content-table{
+    margin-bottom: 210px;
+}
+p{
+    text-align: end;
+    font-size: 14pt;
+}
+.search_container{
+    display: flex;
+    justify-content: end;
+}
+.table-body{
+    margin: 0px 30px;
+}
+td {
+    height: 50px;
+    font-size: 14pt;
+}

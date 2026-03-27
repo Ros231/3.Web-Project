@@ -1,0 +1,15 @@
+footer{
+    margin-top: auto;
+    background-color: #fff;
+    color: #000;
+    border-top:2px solid #000 ;
+    padding-top: 2px;
+}
+footer nav{
+    padding-top: 20px;
+}
+nav div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 45px;
+}   

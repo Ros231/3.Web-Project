@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+*{
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    box-sizing: border-box;
+}
+
+.register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+form label {
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+}
+form .Username {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 16pt;
+    height: 50px;
+    width: 30vh;
+    
+}
+form .Password {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 16pt;
+    height: 50px;
+    width: 30vh;
+    
+}
+form .Fristname {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 16pt;
+    height: 50px;
+    width: 30vh;
+    
+}
+form .Surname {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 16pt;
+    height: 50px;
+    width: 30vh;
+    
+}
+form .btn-submit{
+    font-size: 20pt;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    background-color:rgb(254, 177, 96);
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 150px;
+}
+form .btn-submit:hover{
+    background-color:white;
+
+}

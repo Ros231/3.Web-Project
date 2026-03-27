@@ -1,0 +1,16 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    background-color: gainsboro;
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}

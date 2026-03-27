@@ -1,0 +1,10 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+td {
+    font-size: 16pt;
+}
+.btn-dark{
+    font-size: 14pt;
+}
